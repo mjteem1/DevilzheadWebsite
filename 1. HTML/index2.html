@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+ 		<title>Sponge World</title>
+ 		<meta charset="utf-8" />
+ 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	</head>
+	<body>
+		<div>
+
+			<iframe align="right" width="560" height="315" src="//www.youtube.com/embed/7YFX0lUXFaE" frameborder="0" ></iframe>
+			
+			<h1> Learning more about Sponges!</h1>
+			
+			<h2>How do sponges work?</h2>
+			
+			<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Aplysina_archeri_%28Stove-pipe_Sponge-pink_variation%29.jpg/250px-Aplysina_archeri_%28Stove-pipe_Sponge-pink_variation%29.jpg" width="300" />
+			
+			<p> Sponges are similar to other animals in that they are multicellular, heterotrophic, lack cell walls and produce sperm cells. Unlike other animals, they lack true tissues and organs, and have no body symmetry. The shapes of their bodies are adapted for maximal efficiency of water flow through the central cavity, where it deposits nutrients, and leaves through a hole called the osculum. Many sponges have internal skeletons of spongin and/or spicules of calcium carbonate or silicon dioxide. All sponges are sessile aquatic animals. </p>
+			
+			<hr />
+			
+			<h3> Something More </h3>
+			
+			<ul>
+			
+				<li><strong>Species:</strong> approximately 5,000–10,000 known</li>
+				<li><strong>Food:</strong>bacteria and other food particles in the water</li>
+				<li><strong>Reproduction:</strong>Sponges are <a href="http://en.wikipedia.org/wiki/Hermaphrodite" target="blank">hermaphrodites</a></li>
+				
+			</ul>
+			
+			<hr />
+			
+			<h3> Finally a table! </h3>
+			
+			<table>
+			
+			<tr><th></th> <th>Water Type</th> <th>Depth</th> <th>Surface</th></tr>
+			
+			<tr><td>Calcarea</td> <td>Marine</td> <td>Shallow</td> <td>Hard</td></tr>
+			
+			<tr><td>Glass Sponge</td> <td>Marine</td> <td>Deep</td> <td>Soft</td></tr>
+			
+			<tr><td>Demosponge</td> <td>Marine</td> <td>Abyssal</td> <td>Any</td></tr>
+			
+			</table>
+
+			<h3> Want to know more? </h>
+			
+			<form action="http://en.wikipedia.org/wiki/Sponge" >
+			
+			<input type="submit" Value="Click Here" />
+			
+			</form>
+
+				<h3>Quick Game</h3>
+
+	<p>How many sponges am I thinking of?(0-5)</p>
+	<input id="answer" />
+	<button id="myButton">Submit</button>
+
+	<p>That was a.....</p>
+	<p id="actualAnswer"> </p>
+
+	<a href="./">Back Home!</a>
+
+
+	<script type="text/javascript">
+
+		document.getElementById("myButton").onclick=function() {
+
+			var x=Math.random();
+
+			x=6*x;
+
+			x=Math.floor(x);
+
+			if (x==document.getElementById("answer").value) {
+
+				alert ("That's Correct!");
+
+			} else {
+
+				alert ("That's Wrong! I was thinking of "+x);
+			}
+
+		}
+
+	</script>
+
+		</div>
+	</body>
+</html>
